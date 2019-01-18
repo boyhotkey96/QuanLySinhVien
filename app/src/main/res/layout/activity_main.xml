@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.boyhotkey96.quanlysinhvien.MainActivity">
+
+  <!--  <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ff9900">
+    </android.support.v7.widget.Toolbar>-->
+
+    <TextView android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quản Lý Sinh viên"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:background="#007f36"/>
+
+    <Button android:id="@+id/btnThemLop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:text="Thêm Lớp"/>
+
+    <Button android:id="@+id/btnDanhSachLop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:text="Xem danh sách Lớp"/>
+
+    <Button android:id="@+id/btnQuanLySinhVien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:text="Quản lý Sinh viên"/>
+
+</LinearLayout>
